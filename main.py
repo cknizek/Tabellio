@@ -13,9 +13,9 @@ credentials = {
 
 gc = gspread.service_account_from_dict(credentials)
 
-sh = gc.open("HI-FA21-PUBLIC")
-sh2 = gc.open("HI Logging Sheet Fall 2021")
-#sh2 = gc.open_by_key('13RxsQmXjAaY6gnwa4qeSmCyaaT3qnpywbl3z5F86iMo')
+sh = gc.open("YOUR-PUBLIC-SPREADSHEET-HERE")
+sh2 = gc.open("YOUR-GOOGLE-FORM-RESPONSE-SPREADSHEET-HERE")
+#sh2 = gc.open_by_key('YOUR_KEY_HERE') <<< I'd recommend doing it using open_by_key to avoid filename conflicts.
  
 
 def main():
