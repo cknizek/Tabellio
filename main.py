@@ -13,8 +13,8 @@ credentials = {
 
 gc = gspread.service_account_from_dict(credentials)
 
-sh = gc.open("YOUR-PUBLIC-SPREADSHEET-HERE")
-sh2 = gc.open("YOUR-GOOGLE-FORM-RESPONSE-SPREADSHEET-HERE")
+sh = gc.open("YOUR-PUBLIC-SPREADSHEET-FILENAME-HERE")
+sh2 = gc.open("YOUR-GOOGLE-FORM-RESPONSE-SPREADSHEET-FILENAME-HERE")
 #sh2 = gc.open_by_key('YOUR_KEY_HERE') <<< I'd recommend doing it using open_by_key to avoid filename conflicts.
  
 
