@@ -15,6 +15,6 @@ I live at a student co-op where everyone is required to submit 4 hours of what's
 The general pipeline is as follows: |Google Form| --> |Heroku dyno| --> |Google Sheet|. Every minute, `main.py` will access (using Google's API) two spreadsheets. One is a legacy spreadsheet that I have to support, as I only became responsible for HI hours midway through the semester. The other is an active spreadsheet of Google Form responses. When `main.py` runs, it compares the results of the two spreadsheets with `pandas`. Then, it will clean the data, sanitize the results, and output it to a public Google Sheet.
 
 ## How to extend this
-There are tons of edge cases that I, unfortunately, don't have time to cover as this is currently in `production`. People get fined if they don't have all their HI hours. I would feel really, really bad if I made a buggy deployment and caused people to panic. Anyways, here's a list of features that should/could be added.
+There are tons of edge cases that I, unfortunately, don't have time to cover as this is currently in production. People get fined if they don't have all their HI hours. I would feel really, really bad if I made a buggy deployment and caused people to panic. Anyways, here's a list of features that should/could be added.
 - Correcting for when users' input multiple variations of their first name across separate forms
 - Correcting for when users' misspell their name (this happens a lot)
