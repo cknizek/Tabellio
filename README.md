@@ -1,4 +1,4 @@
-# Google-Drive-Data-Pipeline
+# Google Drive Cloud Data Pipeline (Fully Automated!)
 
 ## Preamble
 I tried to make the code as self-documenting as possible. Please note that I redacted, for obvious reasons, the JSON credentials from main.py. Read [this documentation](https://docs.gspread.org/en/latest/oauth2.html) for more info about what this means.
