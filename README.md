@@ -1,6 +1,6 @@
 <p align="center"><img src="https://imgur.com/HOWql8D.png" alt="MarkText" width="100" height="100"></p>
 
-<h1 align="center">Tabellio</h1>
+<h1 align="center">Tabellio: An automated Google Drive pipeline.</h1>
 
 ## Preamble
 I tried to make the code as self-documenting as possible. Please note that I redacted, for obvious reasons, the JSON credentials from main.py. Read [this documentation](https://docs.gspread.org/en/latest/oauth2.html) for more info about what this means.
